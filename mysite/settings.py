@@ -25,7 +25,11 @@ SECRET_KEY = '3r62@vqi$2ku6*ev-a)miy7ou3h^f*_gfe6@wq1qh@sd$22k&='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'mysite.django.local']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'mysite.django.local',
+    'swimwithabhra.pythonanywhere.com',
+]
 
 
 # Application definition
